@@ -1,0 +1,41 @@
+#logo{
+    height: 3rem;
+}
+.social{
+    height: 2rem;
+}
+.price{
+    font-size: x-large;
+}
+.card:hover{
+    box-shadow: gray 2px 2px 2px;
+}
+.nav-item{
+    transition: all 0.2s;
+    position: relative;
+}
+.nav-item:hover::after{
+    /* text-decoration: underline; */
+    /* border-bottom: 2px solid white; */
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }

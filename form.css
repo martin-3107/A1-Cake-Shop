@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url('./about-us/images/bg.webp');
+    background-size: cover; 
+      
+}
+
+#logo{
+    height: 3rem;
+}
+
+.custombox{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: #24160fb1;
+    /* font-family: Lobster Two ; */
+    color:white;
+
+}
+.label{
+    font-weight: normal;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+hr{
+    background-color: white;
+}
+
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border:0px;
+    border-bottom:1px solid white;
+    color:white;
+    font-size: 20px;
+
+}
+textarea{
+    margin-top: 5px;
+    width:80%;
+}
+
+iframe{
+    margin: 50px auto;
+
+}
+
+.mycontainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}

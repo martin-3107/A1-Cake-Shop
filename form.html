@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/Brands/A1.png" type="image/x-icon">
+
+  <title>Contact Us</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("n_MJDzQLOleV6syr1");
+    })();
+  </script>
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg  bg-dark ms-auto ">
+      <a href="index.html" class="navbar-brand text-light candela ms-3"><span><img src="/Brands/A1.png" alt="Logo"
+            id="logo"></span>A1 Bakery</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="btn text-light bg-dark" id="navbttn">Home</a>
+          </li>
+          <li class="nav-item"><a href="About.html" class="btn text-light bg-dark" id="navbttn">About Us</a>
+          </li>
+          <li class="nav-item"><a href="menu.html" class="btn text-light bg-dark" id="navbttn">Menu</a></li>
+          <li class="nav-item"><a href="index.html #reviews" class="btn text-light bg-dark" id="navbttn">Reviews</a>
+          </li>
+          <li class="nav-item"><a href="form.html" class="btn text-light bg-dark" id="navbttn">Contact-Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-6 ">
+
+      </div>
+      <div class="col-md-6 custombox">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-left text-white">Contact Us</h1>
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+        <hr>
+
+
+        <div class="row">
+
+          <label for="fname" class="label col-md-3 control-label">Your Name</label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="fname" name="fname" placeholder="Full Name">
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="number" class="label col-md-3 control-label">Contact No.</label>
+          <div class="col-md-9">
+            <input type="tel" class="form-control" id="number" name="number" placeholder="Mob. No">
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <label for="mail" class="label col-md-3 control-label">E-Mail</label>
+          <div class="col-md-9">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="Description" class="label col-md-3 control-label">Description</label>
+          <div class="col-md-9">
+            <textarea class="form-control" id="Description" name="Description" placeholder="Description" rows="5"
+              columns="40"></textarea>
+          </div>
+        </div>
+        <div class="row my-5 ">
+          <div class="col-md-3"></div>
+          <div class="col-md-9">
+            <button onclick="SendMail()" class="btn btn-outline-light">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="custombox">
+    <h1 style="text-align:center;">Visit Our Store</h1>
+    <div class="mycontainer">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.710943198449!2d72.78955739999999!3d21.203638800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04de609b4312f%3A0x64589139d6700981!2sA-one%20cake%20shop!5e0!3m2!1sen!2sin!4v1673952020415!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+
+  <footer>
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom foot bg-light"
+      style="background-color: rgba(0, 0, 0, 0.05);">
+
+      <div class="me-5 d-none d-lg-block ">
+        <span>Get connected with us on social networks:</span>
+      </div>
+
+
+
+      <div>
+        <a href="https://instagram.com/bakers_biscuit?igshid=YmMyMTA2M2Y=" target="_blank" class="me-4 text-reset">
+          <img id="instagram" class="social" src="/Social Media Logo/icons8-instagram.svg"></a>
+        <a href="" class="me-4 text-reset"><img id="fb" class="social" src="/Social Media Logo/icons8-facebook.svg"></a>
+        <a href="https://api.whatsapp.com/send?phone=+918780906829&text=Hi" class="me-4 text-reset"><img id="whatsapp"
+            class="social" src="/Social Media Logo/icons8-whatsapp.svg"></a>
+        <a href="youtube.com/@a-onecakepastry
+        " class="me-4 text-reset"><img id="youtube" class="social" src="/Social Media Logo/icons8-youtube.svg"></a>
+      </div>
+
+    </section>
+
+
+
+    <section class="foot bg-dark p-3" id="foot">
+      <div class="container text-center text-md-start mt-5">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-light">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>A1 Bakery<img src="/Brands/A1.png" alt="Logo" id="logo">
+            </h6>
+            <p>
+              A1 Bakery is known for our tasty baked goods, sweets, and cakes.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-light">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <i href="#!" class="text-reset">Cakes</i>
+            </p>
+            <p>
+              <i href="#!" class="text-reset">Pastries</i>
+            </p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-light">
+
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="menu.html" class="text-reset">Menu</a>
+            </p>
+            <p>
+              <a href="form.html" class="text-reset">Contact-Us</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-light">
+
+            <h6 class="text-uppercase fw-bold mb-4 text-light">Contact</h6>
+            <p><i class="fas fa-home me-3 text-light"></i>A-One Cake shop, Jogani Nagar, Palanpur Patia, Surat, Gujarat
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3 text-light"></i>
+              gmail@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-light"></i> 078743 32255</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <div class="text-center p-4 foot bg-dark" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://aone.com/">A1Bakery.com</a>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  
+</body>
+
+</html>
