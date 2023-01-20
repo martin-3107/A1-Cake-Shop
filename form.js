@@ -6,7 +6,7 @@ function SendMail(){
         number : document.getElementById("number").value,
         message : document.getElementById("Description").value
     };
-    emailjs.send("service_2rcvlac" , "template_3o0h3w6" , params).then(function (res){
+    emailjs.send("service_lrun8kd" , "template_wu1xg48" , params).then(function (res){
         alert("Your Mail Has Been Sent !");
     })
     
