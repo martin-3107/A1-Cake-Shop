@@ -37,7 +37,7 @@
           <li class="nav-item"><a href="About.html" class="btn text-light bg-dark" id="navbttn">About Us</a>
           </li>
           <li class="nav-item"><a href="menu.html" class="btn text-light bg-dark" id="navbttn">Menu</a></li>
-          <li class="nav-item"><a href="#reviews" class="btn text-light bg-dark" id="navbttn">Reviews</a>
+          <li class="nav-item"><a href="#reviews" class="btn text-light bg-dark" id="navbttn">Review</a>
           </li>
           <li class="nav-item"><a href="form.html" class="btn text-light bg-dark" id="navbttn">Contact-Us</a>
           </li>
@@ -46,6 +46,35 @@
       </div>
     </nav>
   </header>
+  <!--  ---------------Review Modal------------------- -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SignupModalLabel">Review</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mx-3">
+        <form>
+          <div class="form-floating my-3">
+            <input type="text" class="form-control" id="floatingText" placeholder="Full Name">
+            <label for="floatingText">Full Name</label>
+          </div>
+          <div class=" mb-3">
+            <textarea class="form-control"  placeholder="Your review here!"></textarea>
+          </div>
+          <div class="mb-3 forn-floating">
+            <label for="floatingText" class="mb-2">Upload photo</label>
+            <input type="file" class="form-control">
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-dark  lnk" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
   <div class="container ">
     <div class="row">
       <div class="col-md-6 ">

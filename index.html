@@ -29,7 +29,7 @@
           <li class="nav-item"><a href="About.html" class="btn text-light bg-dark" id="navbttn">About Us</a>
           </li>
           <li class="nav-item"><a href="menu.html" class="btn text-light bg-dark" id="navbttn">Menu</a></li>
-          <li class="nav-item"><a href="#reviews" class="btn text-light bg-dark" id="navbttn">Reviews</a>
+          <li class="nav-item"><a href="#reviews" class="btn text-light bg-dark" id="navbttn" data-bs-target="#SignupModal" data-bs-toggle="modal">Review</a>
           </li>
           <li class="nav-item"><a href="form.html" class="btn text-light bg-dark" id="navbttn">Contact-Us</a>
           </li>
@@ -39,7 +39,35 @@
     </nav>
   </header>
 
-
+<!--  ---------------Signup Modal------------------- -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SignupModalLabel">Review</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mx-3">
+        <form>
+          <div class="form-floating my-3">
+            <input type="text" class="form-control" id="floatingText" placeholder="Full Name">
+            <label for="floatingText">Full Name</label>
+          </div>
+          <div class=" mb-3">
+            <textarea class="form-control"  placeholder="Your review here!"></textarea>
+          </div>
+          <div class="mb-3 forn-floating">
+            <label for="floatingText" class="mb-2">Upload photo</label>
+            <input type="file" class="form-control">
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-dark  lnk" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- ---------------------------------Carousel----------------------------------- -->
 
   <section class="slides">
@@ -55,13 +83,22 @@
           <img src="Carousel/david-holifield-kPxsqUGneXQ-unsplash.jpg" class="d-block w-100 slid" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="Carousel/phinehas-adams-wp4ZYmUuJBk-unsplash.jpg" class="d-block w-100 slid" alt="...">
-        </div>
-        <div class="carousel-item">
           <img src="Carousel/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg" class="d-block w-100 slid" alt="...">
         </div>
         <div class="carousel-item">
           <img src="Carousel/takuya-nagaoka-fENvSZUzbzU-unsplash.jpg" class="d-block w-100 slid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel/toa-heftiba-RD7x1iITFTU-unsplash.jpg" class="d-block w-100 slid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel/american-heritage-chocolate-Id8BO472TbY-unsplash.jpg" class="d-block w-100 slid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel/toa-heftiba-XbWsnr1pwrQ-unsplash.jpg" class="d-block w-100 slid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Carousel/stephen-wheeler-LRIQuZyxKRM-unsplash.jpg" class="d-block w-100 slid" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
